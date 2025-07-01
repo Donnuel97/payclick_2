@@ -90,7 +90,7 @@ const AirtimeForm: React.FC<AirtimeFormProps> = ({ onSubmit, onValidationChange 
       }));
       
       onSubmit(e);
-    } catch (error) {
+    } catch (_error) {
       setValidation(prev => ({
         ...prev,
         isLoading: false,
