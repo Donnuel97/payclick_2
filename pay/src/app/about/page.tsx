@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { FaUsers, FaGlobe, FaHandshake, FaCheckCircle, FaArrowRight, FaShieldAlt, FaRocket, FaBullseye } from "react-icons/fa";
+import { FaHandshake, FaArrowRight, FaShieldAlt, FaRocket, FaBullseye } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 
