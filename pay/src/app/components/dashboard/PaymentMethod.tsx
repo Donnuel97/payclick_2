@@ -58,7 +58,7 @@ const PaymentMethod: React.FC<PaymentMethodProps> = ({ onSubmit, onValidationCha
       await new Promise(resolve => setTimeout(resolve, 1000));
       
       onSubmit(e);
-    } catch (_error) {
+    } catch (error) {
       setErrorMessage("Failed to process payment method. Please try again.");
     } finally {
       setIsLoading(false);

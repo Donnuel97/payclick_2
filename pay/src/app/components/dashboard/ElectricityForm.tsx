@@ -85,7 +85,7 @@ const ElectricityForm: React.FC<ElectricityFormProps> = ({ onSubmit, onValidatio
       }));
       
       onSubmit(e);
-    } catch (_error) {
+    } catch (error) {
       setValidation(prev => ({
         ...prev,
         isLoading: false,
